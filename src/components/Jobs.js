@@ -33,7 +33,7 @@ const Jobs = () => {
     <section className="section jobs">
       <Title title="experience" />
       <div className="jobs-center">
-        {/* bt cont */}
+        {/* btn cont */}
         <div className="btn-container">
           {jobs.map((item, index) => {
             return (
@@ -47,7 +47,7 @@ const Jobs = () => {
             )
           })}
         </div>
-        {/* jobs ind */}
+        {/* jobs cont */}
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>

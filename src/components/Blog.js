@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 const Blog = ({ id, title, image, date, category, slug, desc }) => {
   return (
-    <Link to={`/blogs${slug}`} className="blog" key={id}>
+    <Link to={`/blogs/${slug}`} className="blog" key={id}>
       <Image fluid={image.childImageSharp.fluid} className="blog-card" />
       <div className="blog-card">
         <h4>{title}</h4>
