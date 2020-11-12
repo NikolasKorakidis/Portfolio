@@ -24,6 +24,24 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
+    allStrapiBlogs(limit: 3, sort: { fields: date, order: DESC }) {
+      nodes {
+        content
+        date(formatString: "MMMM Do, YYYY")
+        desc
+        id
+        slug
+        category
+        title
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
     allStrapiProjects(filter: { featured: { eq: true } }) {
       nodes {
         github
