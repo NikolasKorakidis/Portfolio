@@ -429,6 +429,10 @@ Hero
 }
 .hero-img {
   display: none;
+  border-radius: 50%;
+  height: 550px;
+  width: 550px;
+  border: 5px solid #555;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -894,7 +898,9 @@ About Page
 }
 .about-img {
   margin-bottom: 2rem;
-  height: 25rem;
+  height: 35rem;
+  width: 25rem;
+  border: 5px solid rgb(52, 135, 138);
 }
 .about-text .section-title {
   margin-bottom: 2rem;

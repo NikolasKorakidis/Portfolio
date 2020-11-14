@@ -3,7 +3,7 @@ module.exports = {
     title: "Nikolas Portfolio",
     description: "This is my Portfolio Site",
     author: "Nikolas Korakidis",
-    twitterUsername: "korakidisn",
+    twitterUsername: "@korakidisn",
     image: "/twitter-img.png",
     siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
   },
