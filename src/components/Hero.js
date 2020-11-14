@@ -28,8 +28,8 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline"></div>
-            <h1>I am Nikolas</h1>
-            <h4>Full Stack Software Developer</h4>
+            <h1>I am Nikolas!</h1>
+            <h4>a Full Stack Software Developer</h4>
             <Link to="/contact" className="btn">
               Contact Me
             </Link>

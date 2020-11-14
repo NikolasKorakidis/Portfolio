@@ -5,7 +5,7 @@ module.exports = {
     author: "Nikolas Korakidis",
     twitterUsername: "@korakidisn",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://nikolaskorakidis.netlify.app/",
   },
   plugins: [
     `gatsby-transformer-sharp`,
