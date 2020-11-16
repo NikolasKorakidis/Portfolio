@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 const SEO = () => {
-  return <div>SEO Component</div>
+  return <h1>Ready to start</h1>
 }
 
 export default SEO
